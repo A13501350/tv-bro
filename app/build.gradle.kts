@@ -79,6 +79,7 @@ android {
         }
         create("geckoExcluded") {
             dimension = "webengine"
+            minSdk = 23
         }
     }
 
